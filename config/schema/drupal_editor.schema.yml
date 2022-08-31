@@ -1,0 +1,6 @@
+field.field_settings.drupal_editor:
+  type: base_file_field_field_settings
+  label: 'Drupal Editor settings'
+  mapping:
+    types:
+      type: sequence

@@ -1,0 +1,9 @@
+services:
+  plugin.manager.drupal_editor:
+    class: Drupal\Core\Plugin\DefaultPluginManager
+    arguments:
+      - 'Plugin/DrupalEditor'
+      - '@container.namespaces'
+      - '@module_handler'
+      - '\Drupal\drupal_editor\Plugin\DrupalEditor\DrupalEditorPluginInterface'
+      - 'Drupal\drupal_editor\Annotation\DrupalEditor'
